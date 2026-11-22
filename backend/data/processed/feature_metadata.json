@@ -1,0 +1,62 @@
+{
+  "dataset_name": "FLOOD-SHAB Cable-Stayed Bridge SHM Features Dataset",
+  "zenodo_record_id": "20443860",
+  "doi": "10.5281/zenodo.20443860",
+  "license": "Creative Commons Attribution 4.0 International (CC-BY-4.0)",
+  "source_url": "https://zenodo.org/records/20443860",
+  "bridge_description": "Continuous cable-stayed bridge over Saline River, Italy (approx total length 188.6m, main span 103.4m, side spans 42.6m)",
+  "monitoring_period": "2026-03-27 00:29:40 to 2026-04-10 23:59:40",
+  "total_records": 718,
+  "scenario_distribution": {
+    "critical": 475,
+    "normal": 239,
+    "warning": 4
+  },
+  "features": {
+    "vibration_deck_mid_ms2": {
+      "unit": "m/s^2",
+      "source": "AM1Z Accelerometer (Deck Mid-span vertical)",
+      "is_real": true,
+      "mean": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "std": 0.0
+    },
+    "strain_cable_mid_ue": {
+      "unit": "ue",
+      "source": "Loadcell D6 (Stay-cable 6 mid-span tension force)",
+      "is_real": true,
+      "mean": 0.1797493036211699,
+      "min": 0.17,
+      "max": 0.18,
+      "std": 0.001564456430084458
+    },
+    "tilt_pier_a_deg": {
+      "unit": "deg",
+      "source": "Displacement transducer A Pier Transverse",
+      "is_real": true,
+      "mean": 0.000832590529247911,
+      "min": 0.00083,
+      "max": 0.00084,
+      "std": 4.384201318129476e-06
+    },
+    "temp_deck_asphalt_c": {
+      "unit": "deg C",
+      "source": "Asphalt temperature sensor",
+      "is_real": true,
+      "mean": 13.068565459610028,
+      "min": 3.55,
+      "max": 30.14,
+      "std": 6.142620548270309
+    },
+    "humidity_ambient_pct": {
+      "unit": "% RH",
+      "source": "Simulated (Psychrometric diurnal model coupled to air temperature and river water level proxy)",
+      "is_real": false,
+      "mean": 76.02228412256268,
+      "min": 51.6,
+      "max": 97.2,
+      "std": 11.920630327775916
+    }
+  }
+}

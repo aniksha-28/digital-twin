@@ -1,0 +1,330 @@
+VariableName,Description,Unit
+project_acronym,"Project acronym",-
+project_id,"Horizon Europe / MSCA project ID",-
+case_study_name,"Case-study identifier used in the released dataset",-
+bridge_type,"Structural typology of the monitored case-study bridge",-
+river_context,"River/hydrological context of the monitored case study",-
+approx_total_length_m,"Approximate total bridge length",m
+span_arrangement_m,"Approximate span arrangement",m
+timestamp,"End timestamp of the monitoring record",datetime
+record_length_samples,"Length of the original acceleration record expressed as number of samples",samples
+nominal_record_duration_s,"Nominal duration of the monitoring record, calculated as record_length_samples / sampling_frequency_Hz",s
+sampling_frequency_Hz,"Sampling frequency used to interpret record_length_samples",Hz
+time_gap_from_previous_record_min,"Time difference from previous exported record",min
+missing_previous_record_count,"Number of expected 30-minute records missing between previous exported timestamp and current timestamp",count
+freq_mode_01_Hz,"Tracked modal frequency. NaN indicates that this mode was not identified in the corresponding record.",Hz
+freq_mode_02_Hz,"Tracked modal frequency. NaN indicates that this mode was not identified in the corresponding record.",Hz
+freq_mode_03_Hz,"Tracked modal frequency. NaN indicates that this mode was not identified in the corresponding record.",Hz
+freq_mode_04_Hz,"Tracked modal frequency. NaN indicates that this mode was not identified in the corresponding record.",Hz
+freq_mode_05_Hz,"Tracked modal frequency. NaN indicates that this mode was not identified in the corresponding record.",Hz
+freq_mode_06_Hz,"Tracked modal frequency. NaN indicates that this mode was not identified in the corresponding record.",Hz
+freq_mode_07_Hz,"Tracked modal frequency. NaN indicates that this mode was not identified in the corresponding record.",Hz
+freq_mode_08_Hz,"Tracked modal frequency. NaN indicates that this mode was not identified in the corresponding record.",Hz
+freq_mode_09_Hz,"Tracked modal frequency. NaN indicates that this mode was not identified in the corresponding record.",Hz
+freq_mode_10_Hz,"Tracked modal frequency. NaN indicates that this mode was not identified in the corresponding record.",Hz
+freq_mode_11_Hz,"Tracked modal frequency. NaN indicates that this mode was not identified in the corresponding record.",Hz
+freq_mode_12_Hz,"Tracked modal frequency. NaN indicates that this mode was not identified in the corresponding record.",Hz
+freq_mode_13_Hz,"Tracked modal frequency. NaN indicates that this mode was not identified in the corresponding record.",Hz
+freq_mode_14_Hz,"Tracked modal frequency. NaN indicates that this mode was not identified in the corresponding record.",Hz
+freq_mode_15_Hz,"Tracked modal frequency. NaN indicates that this mode was not identified in the corresponding record.",Hz
+freq_mode_16_Hz,"Tracked modal frequency. NaN indicates that this mode was not identified in the corresponding record.",Hz
+damping_mode_01,"Identified damping ratio for tracked mode. NaN indicates unavailable identification.",-
+damping_mode_02,"Identified damping ratio for tracked mode. NaN indicates unavailable identification.",-
+damping_mode_03,"Identified damping ratio for tracked mode. NaN indicates unavailable identification.",-
+damping_mode_04,"Identified damping ratio for tracked mode. NaN indicates unavailable identification.",-
+damping_mode_05,"Identified damping ratio for tracked mode. NaN indicates unavailable identification.",-
+damping_mode_06,"Identified damping ratio for tracked mode. NaN indicates unavailable identification.",-
+damping_mode_07,"Identified damping ratio for tracked mode. NaN indicates unavailable identification.",-
+damping_mode_08,"Identified damping ratio for tracked mode. NaN indicates unavailable identification.",-
+damping_mode_09,"Identified damping ratio for tracked mode. NaN indicates unavailable identification.",-
+damping_mode_10,"Identified damping ratio for tracked mode. NaN indicates unavailable identification.",-
+damping_mode_11,"Identified damping ratio for tracked mode. NaN indicates unavailable identification.",-
+damping_mode_12,"Identified damping ratio for tracked mode. NaN indicates unavailable identification.",-
+damping_mode_13,"Identified damping ratio for tracked mode. NaN indicates unavailable identification.",-
+damping_mode_14,"Identified damping ratio for tracked mode. NaN indicates unavailable identification.",-
+damping_mode_15,"Identified damping ratio for tracked mode. NaN indicates unavailable identification.",-
+damping_mode_16,"Identified damping ratio for tracked mode. NaN indicates unavailable identification.",-
+modal_complexity_factor_mode_01,"Modal complexity factor for tracked mode. NaN indicates unavailable identification.",%
+modal_complexity_factor_mode_02,"Modal complexity factor for tracked mode. NaN indicates unavailable identification.",%
+modal_complexity_factor_mode_03,"Modal complexity factor for tracked mode. NaN indicates unavailable identification.",%
+modal_complexity_factor_mode_04,"Modal complexity factor for tracked mode. NaN indicates unavailable identification.",%
+modal_complexity_factor_mode_05,"Modal complexity factor for tracked mode. NaN indicates unavailable identification.",%
+modal_complexity_factor_mode_06,"Modal complexity factor for tracked mode. NaN indicates unavailable identification.",%
+modal_complexity_factor_mode_07,"Modal complexity factor for tracked mode. NaN indicates unavailable identification.",%
+modal_complexity_factor_mode_08,"Modal complexity factor for tracked mode. NaN indicates unavailable identification.",%
+modal_complexity_factor_mode_09,"Modal complexity factor for tracked mode. NaN indicates unavailable identification.",%
+modal_complexity_factor_mode_10,"Modal complexity factor for tracked mode. NaN indicates unavailable identification.",%
+modal_complexity_factor_mode_11,"Modal complexity factor for tracked mode. NaN indicates unavailable identification.",%
+modal_complexity_factor_mode_12,"Modal complexity factor for tracked mode. NaN indicates unavailable identification.",%
+modal_complexity_factor_mode_13,"Modal complexity factor for tracked mode. NaN indicates unavailable identification.",%
+modal_complexity_factor_mode_14,"Modal complexity factor for tracked mode. NaN indicates unavailable identification.",%
+modal_complexity_factor_mode_15,"Modal complexity factor for tracked mode. NaN indicates unavailable identification.",%
+modal_complexity_factor_mode_16,"Modal complexity factor for tracked mode. NaN indicates unavailable identification.",%
+phi_mode_01_AM1Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_01_AM1Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_01_AV1Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_01_AV1Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_01_AV1Y_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_01_AV1Y_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_01_AV1X_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_01_AV1X_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_01_AM2Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_01_AM2Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_01_AV2Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_01_AV2Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_01_AV2X_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_01_AV2X_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_02_AM1Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_02_AM1Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_02_AV1Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_02_AV1Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_02_AV1Y_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_02_AV1Y_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_02_AV1X_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_02_AV1X_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_02_AM2Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_02_AM2Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_02_AV2Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_02_AV2Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_02_AV2X_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_02_AV2X_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_03_AM1Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_03_AM1Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_03_AV1Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_03_AV1Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_03_AV1Y_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_03_AV1Y_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_03_AV1X_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_03_AV1X_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_03_AM2Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_03_AM2Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_03_AV2Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_03_AV2Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_03_AV2X_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_03_AV2X_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_04_AM1Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_04_AM1Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_04_AV1Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_04_AV1Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_04_AV1Y_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_04_AV1Y_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_04_AV1X_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_04_AV1X_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_04_AM2Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_04_AM2Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_04_AV2Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_04_AV2Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_04_AV2X_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_04_AV2X_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_05_AM1Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_05_AM1Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_05_AV1Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_05_AV1Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_05_AV1Y_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_05_AV1Y_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_05_AV1X_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_05_AV1X_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_05_AM2Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_05_AM2Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_05_AV2Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_05_AV2Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_05_AV2X_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_05_AV2X_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_06_AM1Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_06_AM1Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_06_AV1Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_06_AV1Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_06_AV1Y_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_06_AV1Y_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_06_AV1X_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_06_AV1X_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_06_AM2Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_06_AM2Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_06_AV2Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_06_AV2Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_06_AV2X_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_06_AV2X_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_07_AM1Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_07_AM1Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_07_AV1Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_07_AV1Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_07_AV1Y_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_07_AV1Y_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_07_AV1X_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_07_AV1X_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_07_AM2Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_07_AM2Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_07_AV2Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_07_AV2Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_07_AV2X_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_07_AV2X_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_08_AM1Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_08_AM1Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_08_AV1Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_08_AV1Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_08_AV1Y_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_08_AV1Y_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_08_AV1X_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_08_AV1X_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_08_AM2Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_08_AM2Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_08_AV2Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_08_AV2Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_08_AV2X_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_08_AV2X_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_09_AM1Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_09_AM1Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_09_AV1Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_09_AV1Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_09_AV1Y_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_09_AV1Y_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_09_AV1X_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_09_AV1X_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_09_AM2Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_09_AM2Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_09_AV2Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_09_AV2Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_09_AV2X_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_09_AV2X_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_10_AM1Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_10_AM1Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_10_AV1Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_10_AV1Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_10_AV1Y_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_10_AV1Y_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_10_AV1X_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_10_AV1X_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_10_AM2Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_10_AM2Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_10_AV2Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_10_AV2Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_10_AV2X_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_10_AV2X_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_11_AM1Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_11_AM1Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_11_AV1Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_11_AV1Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_11_AV1Y_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_11_AV1Y_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_11_AV1X_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_11_AV1X_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_11_AM2Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_11_AM2Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_11_AV2Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_11_AV2Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_11_AV2X_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_11_AV2X_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_12_AM1Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_12_AM1Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_12_AV1Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_12_AV1Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_12_AV1Y_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_12_AV1Y_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_12_AV1X_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_12_AV1X_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_12_AM2Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_12_AM2Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_12_AV2Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_12_AV2Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_12_AV2X_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_12_AV2X_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_13_AM1Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_13_AM1Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_13_AV1Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_13_AV1Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_13_AV1Y_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_13_AV1Y_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_13_AV1X_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_13_AV1X_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_13_AM2Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_13_AM2Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_13_AV2Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_13_AV2Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_13_AV2X_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_13_AV2X_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_14_AM1Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_14_AM1Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_14_AV1Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_14_AV1Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_14_AV1Y_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_14_AV1Y_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_14_AV1X_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_14_AV1X_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_14_AM2Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_14_AM2Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_14_AV2Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_14_AV2Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_14_AV2X_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_14_AV2X_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_15_AM1Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_15_AM1Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_15_AV1Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_15_AV1Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_15_AV1Y_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_15_AV1Y_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_15_AV1X_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_15_AV1X_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_15_AM2Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_15_AM2Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_15_AV2Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_15_AV2Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_15_AV2X_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_15_AV2X_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_16_AM1Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_16_AM1Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_16_AV1Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_16_AV1Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_16_AV1Y_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_16_AV1Y_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_16_AV1X_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_16_AV1X_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_16_AM2Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_16_AM2Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_16_AV2Z_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_16_AV2Z_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_16_AV2X_real,"Real part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+phi_mode_16_AV2X_imag,"Imaginary part of complex mode-shape component. Set to NaN when the corresponding mode frequency is missing.",-
+rms_AM1Z_microg,"RMS acceleration indicator over the monitoring record",microg
+rms_AV1Z_microg,"RMS acceleration indicator over the monitoring record",microg
+rms_AV1Y_microg,"RMS acceleration indicator over the monitoring record",microg
+rms_AV1X_microg,"RMS acceleration indicator over the monitoring record",microg
+rms_AM2Z_microg,"RMS acceleration indicator over the monitoring record",microg
+rms_AV2Z_microg,"RMS acceleration indicator over the monitoring record",microg
+rms_AV2X_microg,"RMS acceleration indicator over the monitoring record",microg
+amax_AM1Z_microg,"Maximum acceleration indicator over the monitoring record",microg
+amax_AV1Z_microg,"Maximum acceleration indicator over the monitoring record",microg
+amax_AV1Y_microg,"Maximum acceleration indicator over the monitoring record",microg
+amax_AV1X_microg,"Maximum acceleration indicator over the monitoring record",microg
+amax_AM2Z_microg,"Maximum acceleration indicator over the monitoring record",microg
+amax_AV2Z_microg,"Maximum acceleration indicator over the monitoring record",microg
+amax_AV2X_microg,"Maximum acceleration indicator over the monitoring record",microg
+disp_A_pier_Y_microm,"Mean displacement transducer value over the monitoring record",microm
+disp_A_pier_X_microm,"Mean displacement transducer value over the monitoring record",microm
+disp_B_pier_Y_microm,"Mean displacement transducer value over the monitoring record",microm
+disp_B_pier_X_microm,"Mean displacement transducer value over the monitoring record",microm
+loadcell_D1_N,"Mean stay-cable load-cell value over the monitoring record",N
+loadcell_U1_N,"Mean stay-cable load-cell value over the monitoring record",N
+loadcell_D6_N,"Mean stay-cable load-cell value over the monitoring record",N
+loadcell_U7_N,"Mean stay-cable load-cell value over the monitoring record",N
+loadcell_D15_N,"Mean stay-cable load-cell value over the monitoring record",N
+loadcell_U15_N,"Mean stay-cable load-cell value over the monitoring record",N
+loadcell_D20_N,"Mean stay-cable load-cell value over the monitoring record",N
+loadcell_U20_N,"Mean stay-cable load-cell value over the monitoring record",N
+temp_internal_instrument_C,"Internal instrument temperature sensor, 60-minute moving average relative to the end of acquisition",degC
+temp_asphalt_C,"Asphalt temperature sensor, 60-minute moving average relative to the end of acquisition",degC
+temp_lower_flange_downstream_C,"Lower flange temperature sensor of downstream beam, 60-minute moving average relative to the end of acquisition",degC
+temp_slab_intrados_C,"Intrados slab temperature sensor, 60-minute moving average relative to the end of acquisition",degC
+temp_lower_flange_upstream_C,"Lower flange temperature sensor of upstream beam, 60-minute moving average relative to the end of acquisition",degC
+temp_air_C,"Air temperature from meteo station, 60-minute moving average relative to the end of acquisition",degC
+humidity_percent,"Relative humidity from meteo station, 60-minute moving average relative to the end of acquisition",%
+wind_speed_kmh,"Wind speed from meteo station, 60-minute moving average relative to the end of acquisition",km/h
+wind_direction_deg,"Wind direction from meteo station, 60-minute moving average relative to the end of acquisition",deg
+water_level_proxy_m,"Gauge water-level proxy from an upstream Saline River hydrometric station. Not a bridge-mounted local water-level measurement.",m
+water_level_source,"Source of water-level proxy",-
+water_level_is_proxy,"Flag indicating that the water-level value is a proxy/context variable",logical
+water_level_valid_flag,"Flag indicating whether water-level value is available",logical
+pre_event_window,"Flag for pre-event reference period within the released dataset",logical
+april_2026_hydrometric_event_window,"Flag for April 2026 hydrometric event window",logical
+post_event_window,"Flag for post-event period within the released dataset",logical
+available_tracked_modes_count,"Number of tracked modal frequencies available in the record",count
+available_main_modes_1_2_3_flag,"Flag indicating simultaneous availability of tracked modes 1, 2, and 3",logical
