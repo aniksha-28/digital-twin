@@ -159,6 +159,7 @@ export const App: React.FC = () => {
   // Handle Scenario Change
   const handleScenarioChange = async (newScenario: ScenarioType) => {
     try {
+      socketService.setScenario(newScenario);
       await api.setScenario(newScenario);
       setScenario(newScenario);
       // Refresh alerts after scenario injection

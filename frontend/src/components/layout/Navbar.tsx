@@ -85,10 +85,10 @@ export const Navbar: React.FC<NavbarProps> = ({
           <div className="hidden sm:flex items-center space-x-1.5 text-xs text-slate-300 bg-slate-800/60 px-2.5 py-1 rounded-full border border-slate-700">
             <span
               className={`w-2 h-2 rounded-full ${
-                isConnected ? 'bg-emerald-400 shadow-[0_0_8px_#34d399]' : 'bg-rose-400'
+                isConnected ? 'bg-emerald-400 shadow-[0_0_8px_#34d399] animate-pulse' : 'bg-amber-400 animate-pulse'
               }`}
             ></span>
-            <span className="font-mono text-[11px]">{isConnected ? 'LIVE WS FEED' : 'OFFLINE'}</span>
+            <span className="font-mono text-[11px]">{isConnected ? 'LIVE TWIN (ONLINE)' : 'INITIALIZING...'}</span>
           </div>
 
           {/* Active Alerts Bell */}
